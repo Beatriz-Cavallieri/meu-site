@@ -16,117 +16,130 @@
 
 <body>
     <header>
-        <h1>Beatriz Cavallieri</h1>
+        <h1 id="logo">Beatriz Cavallieri</h1>
         <nav>
             <ul>
                 <li><a href="#sobre-mim">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#footer">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="sobre-mim">
             <div class="card">
-
                 <div class="texto-card">
                     <h1>Beatriz Cavallieri</h1>
                     <h3>Front End Developer | Belo Horizonte, MG</h3>
                     <hr>
                     <ul class="links">
-                        <li class="wrapper-icone">
-                            <a href="https://www.linkedin.com/in/beatriz-cavallieri/" target="_blank" rel="noopener noreferrer">
+                        <li class="wrapper-icone link--fundo-lilas">
+                            <a href="https://www.linkedin.com/in/beatriz-cavallieri/" target="_blank"
+                                rel="noopener noreferrer">
                                 <i class="fa fa-linkedin"></i>
                             </a>
                         </li>
-                        <li class="wrapper-icone">
+                        <li class="wrapper-icone link--fundo-lilas">
                             <a href="mailto:bfcavallieri@gmail.com">
                                 <i class="fa fa-envelope"></i>
                             </a>
-    
+
                         </li>
-                        <li class="wrapper-icone">
+                        <li class="wrapper-icone link--fundo-lilas">
                             <a href="https://github.com/Beatriz-Cavallieri" target="_blank" rel="noopener noreferrer">
                                 <i class="fa fa-github"></i>
                             </a>
                         </li>
-                        <li class="wrapper-icone">
+                        <li class="wrapper-icone link--fundo-lilas">
                             <a href="https://codepen.io/beatriz-cavallieri" target="_blank" rel="noopener noreferrer">
                                 <i class="fa fa-codepen"></i>
                             </a>
                         </li>
                     </ul>
                     <p>
-                       Aprendi a programar na UFMG, quando cursei engenharia.
+                        Aprendi a programar na UFMG, quando cursei engenharia.
                         Hoje curso Ciência da Computação EaD na Universidade Anhembi Morumbi.
                         <br>
-                        Minhas aptidões se extendem além dessas áreas: tenho experiência e conhecimento em gestão de projetos e também sou artista plástica. Meu perfil profissional é, por isso, altamente flexível e adaptável.
+                        Minhas aptidões se extendem além dessas áreas: tenho experiência e conhecimento em gestão de
+                        projetos e também sou artista plástica. Meu perfil profissional é, por isso, altamente flexível
+                        e adaptável.
                         <br>
                         <br>
-                        Essas são as principais tecnologias com que tenho me envolvido no momento:</p>
-                    </div>
-                    <img class="img-circular" src="./assets/eu.jpeg" alt="">
+                        Essas são as principais tecnologias com que tenho me envolvido no momento:
+                    </p>
                 </div>
-                <ul class="flex-space-bt ferramentas">
-                    <li>HTML5</li>
-                    |
-                    <li>CSS</li>
-                    |
-                    <li>JavaScript</li>
-                    |
-                    <li>TypeScript</li>
-                    |
-                    <li>Node.js</li>
-                    |
-                    <li>React JS</li>
-                    |
-                    <li>React Native</li>
-                </ul>
-            </section>
-            <i class="fa fa-angle-down"></i>
-            <section id="projetos">
-                <h2>Projetos</h2>
-                <hr>
-                <div class="card projeto">
-                    <img src="./assets/screenshots/Codepen-30diasCSS-2020-11-17.png" alt="Captura de tela do projeto">
-                    <div class="texto-card">
-                        <ul class="ver-codigo">
-                            <li class="wrapper-icone">
-                                <a href="https://github.com/Beatriz-Cavallieri/30diasCSS" target="_blank"
+                <img class="foto-perfil" src="./assets/eu.jpeg" alt="">
+            </div>
+            <ul class="flex-space-bt ferramentas">
+                <li>HTML5</li>
+                |
+                <li>CSS</li>
+                |
+                <li>JavaScript</li>
+                |
+                <li>TypeScript</li>
+                |
+                <li>Node.js</li>
+                |
+                <li>React JS</li>
+                |
+                <li>React Native</li>
+            </ul>
+        </section>
+        <a href="#projetos"><i class="fa fa-angle-down"></i></a>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <hr>
+            <div class="card projeto">
+                <img src="./assets/screenshots/Codepen-30diasCSS-2020-11-17.png" alt="Captura de tela do projeto">
+                <div class="texto-card">
+                    <ul class="ver-codigo">
+                        <li class="wrapper-icone link--fundo-lilas">
+                            <a href="https://github.com/Beatriz-Cavallieri/30diasCSS" target="_blank"
                                 rel="noopener noreferrer">
                                 <i class="fa fa-github"></i>
                             </a>
                         </li>
-                        <li class="wrapper-icone">
+                        <li class="wrapper-icone link--fundo-lilas">
                             <a href="https://codepen.io/collection/DgZvYG" target="_blank" rel="noopener noreferrer">
                                 <i class="fa fa-codepen"></i>
                             </a>
                         </li>
                     </ul>
                     <h3>30 dias de CSS</h3>
-                    <p>Inspirada <a href="https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2003"
-                        target="_blank" rel="noopener noreferrer"> nesse Desafio 30 Dias de
-                        CSS</a>, me propus a realizar os mesmos 30 pequenos projetos, num período de tempo mais
+                    <p>Inspirada 
+                        <a class="link--fundo-lilas"
+                            href="https://github.com/MilenaCarecho/30diasDeCSS/tree/master/Desafios/dia%2003"
+                            target="_blank" rel="noopener noreferrer"> nesse Desafio 30 Dias de
+                            CSS
+                        </a>
+                        , me propus a realizar os mesmos 30 pequenos projetos, num período de tempo mais
                         flexível.
-                        Os resultados pode ser vistos em <a href="http://https://codepen.io/beatriz-cavallieri"
-                        target="_blank" rel="noopener noreferrer">minha página do Codepen</a>.</p>
-                        <p>Saiba mais:</p>
-                    </div>
+                        Os resultados pode ser vistos em
+                        <a class="link--fundo-lilas" href="http://https://codepen.io/beatriz-cavallieri" target="_blank"
+                            rel="noopener noreferrer">
+                            minha página do Codepen
+                        </a>
+                        .
+                    </p>
+                    <p>Saiba mais:</p>
                 </div>
-                <div class="card projeto">
-                    <img src="./assets/screenshots/Github-2020-11-17.png" alt="Captura de tela do projeto">
-                    <div class="texto-card">
-                        <ul class="ver-codigo">
-                            <li class="wrapper-icone">
-                                <a href="https://github.com/Beatriz-Cavallieri" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa fa-github"></i>
-                                </a>
+            </div>
+            <div class="card projeto">
+                <img src="./assets/screenshots/Github-2020-11-17.png" alt="Captura de tela do projeto">
+                <div class="texto-card">
+                    <ul class="ver-codigo">
+                        <li class="wrapper-icone link--fundo-lilas">
+                            <a href="https://github.com/Beatriz-Cavallieri" target="_blank" rel="noopener noreferrer">
+                                <i class="fa fa-github"></i>
+                            </a>
                         </li>
                     </ul>
                     <h3>Códigos de cursos e experiências em geral</h3>
-                    <p>Na <a href="https://github.com/Beatriz-Cavallieri" target="_blank"
-                            rel="noopener noreferrer">minha página do Github</a> é
-                        possível ter uma visão do meu código para atividades de alguns cursos e imersões, e ter uma
+                    <p>Na <a class="link--fundo-lilas" href="https://github.com/Beatriz-Cavallieri" target="_blank"
+                            rel="noopener noreferrer">minha página do Github
+                        </a>
+                         é possível ter uma visão do meu código para atividades de alguns cursos e outros, e ter uma
                         noção de quais são as linguagens que estou estudando no momento.
                     </p>
                     <p>Saiba mais:</p>
@@ -134,18 +147,18 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <div class="footer--conteudo">
             <div class="contatos">
                 <h3>Contatos</h3>
                 <hr>
                 <ul>
-                    <a href="mailto:bfcavallieri@gmail.com">
-                        <li>
+                    <li>
+                            <a href="mailto:bfcavallieri@gmail.com">
                             <i class="fa fa-envelope"></i>
                             bfcavallieri@gmail.com
+                        </a>
                         </li>
-                    </a>
                     <li>
                         <a href="#">
                             <i class="fa fa-linkedin"></i>
